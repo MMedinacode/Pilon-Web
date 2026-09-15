@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Churrasquería Pilón — sándwiches en Quilicura desde 2008</title>
+<meta name="description" content="Churrasquería Pilón, Las Parcelas 1242, Quilicura. Churrascos y lomitos a $5.500, hamburguesas caseras, completos y chorrillanas. Abierto de 18:00 a 01:00. 4,7 ★ con 217 reseñas.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#121212">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23121212'/%3E%3Ccircle cx='32' cy='32' r='22' fill='%23FFC21A'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Impact,sans-serif' font-size='30' fill='%23121212'%3EP%3C/text%3E%3C/svg%3E">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CL">
+<meta property="og:site_name" content="Churrasquería Pilón">
+<meta property="og:title" content="Churrasquería Pilón — Quilicura, desde 2008">
+<meta property="og:description" content="Churrascos y lomitos a $5.500. Hamburguesas caseras a $7.000. Abierto de 18:00 a 01:00, menos el martes. 4,7 ★ con 217 reseñas.">
+<meta property="og:url" content="https://mmedinacode.github.io/Pilon-Web/">
+<meta property="og:image" content="https://mmedinacode.github.io/Pilon-Web/fotos/hero-churrasco.jpg">
+<meta property="og:image:alt" content="Churrasco con chucrut en Churrasquería Pilón, Quilicura">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Loader: su insignia amarilla llegando de golpe, como un sello. -->
+<div id="loader" class="loader" aria-hidden="true">
+  <div class="loader-sello" aria-hidden="true"><span>PILÓN</span></div>
+  <p class="loader-txt">Quilicura · desde 2008</p>
+</div>
+
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="head">
+  <div class="head-in">
+    <a class="brand" href="#inicio" data-tab="inicio" aria-label="Churrasquería Pilón, ir al inicio">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      <span class="brand-txt"><strong>Pilón</strong><em>Quilicura · desde 2008</em></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Secciones">
+      <ul class="nav-links">
+        <li><a href="#inicio"    data-tab="inicio" class="on">Inicio</a></li>
+        <li><a href="#nosotros"  data-tab="nosotros">Nosotros</a></li>
+        <li><a href="#carta"     data-tab="carta">Carta</a></li>
+        <li><a href="#resenas"   data-tab="resenas">Reseñas</a></li>
+        <li><a href="#redes"     data-tab="redes">Redes</a></li>
+        <li><a href="#visitanos" data-tab="visitanos">Visítanos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ══════════════ INICIO ══════════════ -->
+<section class="tab-panel on" data-tab-panel="inicio" id="inicio">
+  <div class="hero">
+    <div class="hero-txt">
+      <p class="eyebrow">Las Parcelas 1242 · Quilicura</p>
+      <h1>Dieciocho años<br>haciendo el<br><em>mejor sánguche</em><br>del barrio.</h1>
+      <p class="hero-lead">
+        Churrascos y lomitos <strong>a $5.500</strong>, hamburguesas caseras
+        a $7.000, completos y chorrillanas. Abrimos a las seis de la tarde y
+        cerramos a la una.
+      </p>
+
+      <ul class="sellos" aria-label="Lo que ofrecen">
+        <li>Churrascos</li>
+        <li>Lomitos</li>
+        <li>Hamburguesas</li>
+        <li>Completos</li>
+        <li>Chorrillanas</li>
+      </ul>
+
+      <div class="hero-cta">
+        <a class="btn btn-solid" href="#carta" data-tab="carta">Ver la carta</a>
+        <a class="btn btn-ghost" href="#resenas" data-tab="resenas">Leer las reseñas</a>
+      </div>
+      <p class="hero-open">
+        <span class="dot" id="statusDot" aria-hidden="true"></span>
+        <span data-horario-estado>De 18:00 a 01:00 · martes cerrado</span>
+      </p>
+    </div>
+    <figure class="hero-img">
+      <img src="fotos/hero-churrasco.jpg" alt="Churrasco con chucrut servido junto a las salsas de marca Pilón" fetchpriority="high" decoding="async">
+      <figcaption class="hero-cap">Churrasco · desde $5.500</figcaption>
+    </figure>
+  </div>
+
+  <div class="wrap">
+    <div class="cifras reveal stagger">
+      <div><b data-contar>217</b><span>reseñas en Google</span></div>
+      <div><b data-contar>4,7</b><span>de promedio</span></div>
+      <div><b data-contar>2008</b><span>desde</span></div>
+      <div><b>01:00</b><span>cerramos</span></div>
+    </div>
+
+    <div class="tri reveal stagger">
+      <article class="tri-card">
+        <h3>217 reseñas</h3>
+        <p><strong>176 son de cinco estrellas.</strong> Es el local con más
+           reseñas de toda esta serie, y con 4,7 de promedio.</p>
+        <a href="#resenas" data-tab="resenas" class="lnk">Ver el desglose →</a>
+      </article>
+      <article class="tri-card">
+        <h3>Todo a $5.500</h3>
+        <p>Los doce churrascos y lomitos valen lo mismo: <strong>$5.500</strong>.
+           Dos, entre $7.500 y $8.000.</p>
+        <a href="#carta" data-tab="carta" class="lnk">Ver la carta →</a>
+      </article>
+      <article class="tri-card">
+        <h3>Lo atiende el dueño</h3>
+        <p>“Es atendido por su propio dueño <strong>que siempre está de buen
+           humor</strong>”, dice un Local Guide.</p>
+        <a href="#nosotros" data-tab="nosotros" class="lnk">Conocer el local →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ NOSOTROS ══════════════ -->
+<section class="tab-panel" data-tab-panel="nosotros" id="nosotros">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Nosotros</p>
+      <h2>Desde 2008 en<br>Las Parcelas</h2>
+      <p class="sec-lead">
+        Lo dice su propia carta: <b>“Pilón Delivery · desde 2008”</b>.
+      </p>
+    </header>
+
+    <div class="split reveal">
+      <figure class="split-img">
+        <img src="fotos/chorrillana.jpg" alt="Chorrillana con huevo sobre la mesa de Churrasquería Pilón, con banderines chilenos al fondo" loading="lazy" decoding="async">
+        <figcaption>Chorrillana, con el local de fondo</figcaption>
+      </figure>
+      <div class="split-txt">
+        <h3>Un local chico, con banderines</h3>
+        <blockquote class="cita">
+          “El local es pequeño, pero hay mesas para comer y compartir en
+          familia. La atención es rápida, de calidad y es atendido por su
+          propio dueño que siempre está de buen humor.”
+          <cite>Daniel Moronta, Local Guide con 52 reseñas</cite>
+        </blockquote>
+        <p>
+          Banderines chilenos colgando del techo, el cartel de Pilón sobre
+          la pared de madera y mesas para sentarse. Google le pone
+          <strong>el icono de acceso en silla de ruedas</strong> y otro
+          cliente anota que hay <strong>estacionamiento gratuito</strong>.
+        </p>
+      </div>
+    </div>
+
+    <div class="split split-rev reveal">
+      <figure class="split-img">
+        <img src="fotos/hero-churrasco.jpg" alt="Las tres salsas de marca Pilón: ketchup, ají y mostaza" loading="lazy" decoding="async">
+        <figcaption>Ketchup, ají y mostaza, de la casa</figcaption>
+      </figure>
+      <div class="split-txt">
+        <h3>Hasta las salsas son suyas</h3>
+        <p>
+          En casi todas sus fotos aparecen <strong>tres botellas con su
+          propio personaje impreso</strong>: la roja del ketchup, la verde
+          del ají y la amarilla de la mostaza. No es decoración comprada:
+          es su marca, y de ahí salen los colores de esta página.
+        </p>
+        <p>
+          El personaje —calvo, con barba y levantando un sánguche— es el
+          mismo que está en la insignia de su carta, en el cartel del local
+          y en los banderines de cada plato.
+        </p>
+        <a href="#carta" data-tab="carta" class="lnk">Ver la carta completa →</a>
+      </div>
+    </div>
+
+    <div class="gal reveal stagger">
+      <figure><img src="fotos/completos-italianos.jpg" alt="Dos completos italianos en cajas, con papas fritas" loading="lazy" decoding="async"></figure>
+      <figure><img src="fotos/hamburguesa-papas.jpg" alt="Hamburguesa con papas fritas y banderín Pilón" loading="lazy" decoding="async"></figure>
+      <figure><img src="fotos/completo-schop.jpg" alt="Completo italiano con papas fritas y un schop" loading="lazy" decoding="async"></figure>
+      <figure><img src="fotos/completo-mesa.jpg" alt="Completo italiano grande servido sobre la mesa" loading="lazy" decoding="async"></figure>
+    </div>
+    <p class="note">Todas las fotos son del propio local, publicadas en su ficha de Google Maps.</p>
+  </div>
+</section>
+
+<!-- ══════════════ CARTA ══════════════ -->
+<section class="tab-panel" data-tab-panel="carta" id="carta">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Carta</p>
+      <h2>Precios reales,<br>de su propia carta</h2>
+      <p class="sec-lead">
+        Transcritos de las dos láminas que ellos mismos publicaron en su
+        ficha de Google.
+      </p>
+    </header>
+
+    <section class="carta-bloque reveal">
+      <header class="carta-bloque-head">
+        <h3>Churrascos y lomitos</h3>
+        <span class="carta-bloque-n">12 · todos a $5.500</span>
+      </header>
+      <div class="aviso reveal">
+        <strong>Los doce valen lo mismo:</strong> <b>$5.500</b> la unidad.
+        Cambia sólo el precio del combo de dos, que va entre <b>$7.500</b> y
+        <b>$8.000</b> según cuál elijas.
+      </div>
+      <div class="menu reveal stagger">
+        <article class="menu-item">
+          <img src="fotos/hero-churrasco.jpg" alt="Churrasco servido" loading="lazy" decoding="async">
+          <div><h4>Pilón (de la casa)</h4><p>Lechuga, cebolla, tomate y mayo. 2x $7.500</p></div>
+          <span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Italiano</h4><p>Tomate, palta y mayo. 2x $7.500</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Barros Luco</h4><p>Queso. 2x $7.500</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Dinámico</h4><p>Chucrut, americana, tomate, palta y mayo. 2x $8.000</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Queso champiñón</h4><p>Queso y champiñones. 2x $7.500</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>A lo pobre</h4><p>Papas fritas, huevo y cebolla frita. 2x $8.000</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Brasileño</h4><p>Palta, queso y mayo. 2x $8.000</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Alemán</h4><p>Chucrut, tomate y mayo. 2x $7.500</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Chacarero</h4><p>Poroto verde, tomate, ají verde y mayo. 2x $7.500</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Aros de cebolla</h4><p>Lechuga, aros de cebolla y queso cheddar. 2x $8.000</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Tomate mayo</h4><p>Tomate y mayo. 2x $7.500</p></div><span class="price">$5.500</span></article>
+        <article class="menu-item"><div><h4>Palta mayo</h4><p>Palta y mayo. 2x $7.500</p></div><span class="price">$5.500</span></article>
+      </div>
+    </section>
+
+    <section class="carta-bloque reveal">
+      <header class="carta-bloque-head">
+        <h3>Hamburguesas caseras</h3>
+        <span class="carta-bloque-n">2 · $7.000</span>
+      </header>
+      <div class="menu reveal stagger">
+        <article class="menu-item">
+          <img src="fotos/hamburguesa-papas.jpg" alt="Hamburguesa con papas fritas" loading="lazy" decoding="async">
+          <div><h4>Bacon</h4><p>Hamburguesa casera, bacon, cheddar derretido, tomate y lechuga.</p></div>
+          <span class="price">$7.000</span></article>
+        <article class="menu-item"><div><h4>Un Manjar</h4><p>Hamburguesa casera, cebolla caramelizada, huevos, papas hilo, lechuga y cheddar derretido.</p></div><span class="price">$7.000</span></article>
+      </div>
+      <!--
+        ⚠️ OJO CON ESTE PRECIO.
+        En una foto más antigua de su carta impresa, la Bacon aparece a
+        $6.500. Se usa el $7.000 de la lámina digital, que es la más nueva.
+        Está explicado en el aviso de abajo a propósito: es el argumento.
+      -->
+      <div class="aviso aviso-ojo reveal">
+        <strong>Un detalle que vale la pena:</strong> en otra foto de su
+        ficha se ve una carta impresa más antigua donde esta misma
+        hamburguesa aparece a <b>$6.500</b>. Acá va el precio de la lámina
+        más nueva. <b>Un precio en una página se cambia en un minuto; uno
+        plastificado, no.</b>
+      </div>
+    </section>
+
+    <section class="carta-bloque reveal">
+      <header class="carta-bloque-head">
+        <h3>Completos y vienesas</h3>
+        <span class="carta-bloque-n">sin precio publicado</span>
+      </header>
+      <div class="menu reveal stagger">
+        <article class="menu-item">
+          <img src="fotos/completos-italianos.jpg" alt="Completos italianos" loading="lazy" decoding="async">
+          <div><h4>Completo italiano</h4><p>Tomate, palta y mayo. Es el que más sale en sus fotos.</p></div>
+          <span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Campesino</h4><p>Nombre leído en su carta impresa.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Dinámico</h4><p>Nombre leído en su carta impresa.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Chacarero</h4><p>Nombre leído en su carta impresa.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Brasileño</h4><p>Nombre leído en su carta impresa.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Napolitano</h4><p>Nombre leído en su carta impresa.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Suculenta</h4><p>Nombre leído en su carta impresa.</p></div><span class="price">Consultar</span></article>
+      </div>
+      <!--
+        ⚠️ PLACEHOLDER MARCADO — SIN PRECIO A PROPÓSITO.
+        Los nombres se leen en la foto de su carta impresa antigua, pero los
+        precios de esa misma lámina ya están desactualizados (ver arriba),
+        así que no se copian.
+      -->
+      <p class="note">
+        Los nombres se leen en la foto de su carta impresa. <b>Los precios de
+        esa lámina ya están desactualizados</b>, así que no se copian:
+        conviene preguntarlos.
+      </p>
+    </section>
+
+    <section class="carta-bloque reveal">
+      <header class="carta-bloque-head">
+        <h3>Para picotear y tomar</h3>
+        <span class="carta-bloque-n">sin precio publicado</span>
+      </header>
+      <div class="menu reveal stagger">
+        <article class="menu-item">
+          <img src="fotos/chorrillana.jpg" alt="Chorrillana con huevo" loading="lazy" decoding="async">
+          <div><h4>Chorrillana</h4><p>Con huevo encima. Categoría propia en su antiguo Uber Eats.</p></div>
+          <span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Papas supremas</h4><p>Categoría propia en su antiguo Uber Eats.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item"><div><h4>Pinchos</h4><p>Categoría propia en su antiguo Uber Eats.</p></div><span class="price">Consultar</span></article>
+        <article class="menu-item">
+          <img src="fotos/completo-schop.jpg" alt="Schop servido junto a un completo" loading="lazy" decoding="async">
+          <div><h4>Bebidas y schop</h4><p>Latas de Pepsi y schop, vistos en sus fotos.</p></div>
+          <span class="price">Consultar</span></article>
+      </div>
+    </section>
+
+    <div class="cartas reveal stagger">
+      <figure><img src="fotos/carta-churrascos.jpg" alt="Lámina de la carta de churrascos y lomitos de Pilón, con los precios" loading="lazy" decoding="async"><figcaption>Su lámina de churrascos y lomitos</figcaption></figure>
+      <figure><img src="fotos/carta-hamburguesas.jpg" alt="Lámina de la carta de hamburguesas de Pilón, con los precios" loading="lazy" decoding="async"><figcaption>Su lámina de hamburguesas</figcaption></figure>
+    </div>
+    <p class="note">
+      Las dos láminas están publicadas por ellos mismos en su ficha de
+      Google. Conviene confirmar precios y disponibilidad en el local.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════ RESEÑAS ══════════════ -->
+<section class="tab-panel" data-tab-panel="resenas" id="resenas">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Reseñas</p>
+      <h2>4,7 ★ · 217 reseñas</h2>
+      <p class="sec-lead">De las 217, <b>176 son de cinco estrellas</b>.</p>
+    </header>
+
+    <!-- Desglose real de su ficha: 176/25/8/2/6. -->
+    <div class="barras reveal stagger">
+      <div class="barra"><span>5 ★</span><i style="--p:81%"></i><b>176</b></div>
+      <div class="barra"><span>4 ★</span><i style="--p:11.5%"></i><b>25</b></div>
+      <div class="barra"><span>3 ★</span><i style="--p:3.7%"></i><b>8</b></div>
+      <div class="barra"><span>2 ★</span><i style="--p:0.9%"></i><b>2</b></div>
+      <div class="barra"><span>1 ★</span><i style="--p:2.8%"></i><b>6</b></div>
+    </div>
+
+    <div class="revs reveal stagger">
+      <blockquote class="rev">
+        <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+        <p>Son demasiados buenos los lomitos. El local es pequeño, pero hay mesas para comer y compartir en familia. La atención es rápida, de calidad y es atendido por su propio dueño que siempre está de buen humor.</p>
+        <footer><b>Daniel Moronta</b><span>Local Guide · 52 reseñas</span></footer>
+      </blockquote>
+
+      <blockquote class="rev">
+        <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+        <p>Exelente servicio muy agradable lugar lo recomiendo y buenos precios</p>
+        <footer><b>Rodrigo Leiva</b><span>Local Guide · 58 reseñas</span></footer>
+      </blockquote>
+
+      <blockquote class="rev">
+        <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+        <p>Muy rico y a precio justo</p>
+        <footer><b>Marcial Rivers</b><span>Local Guide · 59 reseñas</span></footer>
+      </blockquote>
+    </div>
+
+    <!-- Temas que Google extrae automáticamente de las 217 reseñas. -->
+    <div class="temas reveal stagger" aria-label="Lo que más se repite en sus reseñas">
+      <span>sándwich <b>9</b></span>
+      <span>churrascos <b>9</b></span>
+      <span>completos <b>5</b></span>
+      <span>sabor <b>5</b></span>
+      <span>picadas <b>2</b></span>
+      <span>ambiente <b>2</b></span>
+      <span>familia <b>2</b></span>
+    </div>
+    <p class="note">Las palabras de arriba las extrae Google automáticamente de las 217 reseñas.</p>
+
+    <div class="rev-cta reveal">
+      <a class="btn btn-solid" href="https://search.google.com/local/reviews?placeid=ChIJO75yzCrHYpYRWYLkZsrr3mc" target="_blank" rel="noopener">Leer las 217 reseñas</a>
+      <a class="btn btn-ghost" href="https://search.google.com/local/writereview?placeid=ChIJO75yzCrHYpYRWYLkZsrr3mc" target="_blank" rel="noopener">Dejar una reseña</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ REDES ══════════════ -->
+<section class="tab-panel" data-tab-panel="redes" id="redes">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Redes</p>
+      <h2>Dónde escribirnos</h2>
+      <p class="sec-lead">Sólo lo verificado. Ningún perfil inventado.</p>
+    </header>
+
+    <div class="redes">
+      <!-- WhatsApp: el número está en su ficha de Google Y impreso en su
+           propia carta, con el icono de WhatsApp. Verificado el 15-09-2026. -->
+      <article class="red-card reveal">
+        <a class="red-card-head" href="https://wa.me/56967955903" target="_blank" rel="noopener">
+          <span class="red-logo red-logo-wsp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884a9.82 9.82 0 016.988 2.896 9.82 9.82 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.88 11.88 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 00-3.48-8.413Z"/></svg></span>
+          <span class="red-card-txt">
+            <b>+56 9 6795 5903</b>
+            <em>Es el número que imprimen en su carta</em>
+          </span>
+          <span class="red-card-cta">Escribir →</span>
+        </a>
+        <a class="red-grid" href="https://wa.me/56967955903" target="_blank" rel="noopener"
+           data-cta="Escribir por WhatsApp" aria-label="Escribir a Churrasquería Pilón por WhatsApp">
+          <figure><img src="fotos/hero-churrasco.jpg" alt="Churrasco con chucrut" loading="lazy" decoding="async"></figure>
+          <figure><img src="fotos/completos-italianos.jpg" alt="Completos italianos con papas" loading="lazy" decoding="async"></figure>
+          <figure><img src="fotos/chorrillana.jpg" alt="Chorrillana con huevo" loading="lazy" decoding="async"></figure>
+        </a>
+        <p class="red-pie">El mismo número aparece en su ficha de Google.</p>
+      </article>
+
+      <!-- Facebook VERIFICADO el 15-09-2026: 1.200 seguidores, mismo
+           teléfono que Google, portada actualizada el 7 de septiembre. -->
+      <article class="red-card reveal">
+        <a class="red-card-head" href="https://www.facebook.com/p/Pilon-delivery-quilicura-100046873121831/" target="_blank" rel="noopener">
+          <span class="red-logo red-logo-fb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span>
+          <span class="red-card-txt">
+            <b>Pilon delivery quilicura</b>
+            <em>1.200 seguidores · activa</em>
+          </span>
+          <span class="red-card-cta">Abrir →</span>
+        </a>
+        <a class="red-grid" href="https://www.facebook.com/p/Pilon-delivery-quilicura-100046873121831/" target="_blank" rel="noopener"
+           data-cta="Ver la página" aria-label="Abrir la página de Facebook de Pilón">
+          <figure><img src="fotos/completo-mesa.jpg" alt="Completo italiano grande" loading="lazy" decoding="async"></figure>
+          <figure><img src="fotos/hamburguesa-papas.jpg" alt="Hamburguesa con papas" loading="lazy" decoding="async"></figure>
+          <figure><img src="fotos/completo-schop.jpg" alt="Completo con papas y schop" loading="lazy" decoding="async"></figure>
+        </a>
+        <p class="red-pie">Su bio, textual: <b>“los mejores sándwiches de quilicura”</b>.</p>
+      </article>
+
+      <article class="red-card reveal">
+        <a class="red-card-head" href="https://www.google.com/maps/search/?api=1&query=Churrasqueria%20Pilon&query_place_id=ChIJO75yzCrHYpYRWYLkZsrr3mc" target="_blank" rel="noopener">
+          <span class="red-logo red-logo-map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C7.31 0 3.5 3.81 3.5 8.5c0 6.38 8.5 15.5 8.5 15.5s8.5-9.12 8.5-15.5C20.5 3.81 16.69 0 12 0zm0 11.6a3.1 3.1 0 110-6.2 3.1 3.1 0 010 6.2z"/></svg></span>
+          <span class="red-card-txt">
+            <b>Ficha en Google Maps</b>
+            <em>4,7 ★ · 217 reseñas</em>
+          </span>
+          <span class="red-card-cta">Abrir →</span>
+        </a>
+        <p class="red-pie">Su ficha todavía figura <b>sin reclamar</b>, con 217 reseñas.</p>
+      </article>
+    </div>
+
+    <!--
+      ⚠️ DOS HALLAZGOS VERIFICADOS EL 15-09-2026, Y UNA DECISIÓN.
+
+      1. INSTAGRAM: su carta imprime @martin_alejandro_aranguiz, que es la
+         CUENTA PERSONAL del dueño (776 seguidores; destacadas "el rey",
+         "love", "Te amo"). NO se usa en el sitio a propósito: es una cuenta
+         privada de una persona, no un canal del negocio. Está en el
+         dossier para que Matías lo converse con ellos.
+
+      2. UBER EATS: ubereats.com/cl/store/pilon-delivery-spa/V0x34VbiQdqJm8LqSFgk0w
+         Misma dirección, así que es el mismo negocio. Pero dice textual
+         "Cerrado en Uber Eats desde el 26 dic 2022". Por eso NO hay botón
+         flotante de delivery: no hay a dónde mandar a nadie.
+    -->
+    <div class="aviso aviso-ojo reveal">
+      <strong>Dos cosas que conviene arreglar.</strong>
+      <b>Una:</b> el local se llama “Pilón <i>Delivery</i>”, pero su tienda
+      en Uber Eats aparece <b>cerrada desde diciembre de 2022</b> — y esa
+      página vacía sigue saliendo cuando alguien los busca en Google.
+      <b>Dos:</b> con 217 reseñas y 1.200 seguidores en Facebook,
+      <b>todavía no tienen Instagram del negocio</b>.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ VISÍTANOS ══════════════ -->
+<section class="tab-panel" data-tab-panel="visitanos" id="visitanos">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Visítanos</p>
+      <h2>Las Parcelas 1242</h2>
+    </header>
+
+    <div class="visit reveal">
+      <div class="visit-info">
+        <div class="vblock">
+          <h3>Dirección</h3>
+          <p>Las Parcelas 1242<br>Quilicura, Región Metropolitana</p>
+          <p class="sub">Plus Code J7JM+PH · con estacionamiento gratuito</p>
+        </div>
+
+        <div class="vblock">
+          <h3>Horario</h3>
+          <p class="estado"><span class="dot" aria-hidden="true"></span><span data-horario-estado>De 18:00 a 01:00 · martes cerrado</span></p>
+          <ul class="horario horario-semana" id="horario-lista" data-horario-semana>
+            <li data-dia="1"><span>Lunes</span><b>18:00 – 01:00</b></li>
+            <li data-dia="2"><span>Martes</span><b class="cerrado">Cerrado</b></li>
+            <li data-dia="3"><span>Miércoles</span><b>18:00 – 01:00</b></li>
+            <li data-dia="4"><span>Jueves</span><b>18:00 – 01:00</b></li>
+            <li data-dia="5"><span>Viernes</span><b>18:00 – 01:00</b></li>
+            <li data-dia="6"><span>Sábado</span><b>18:00 – 01:00</b></li>
+            <li data-dia="0"><span>Domingo</span><b>18:00 – 01:00</b></li>
+          </ul>
+          <p class="sub">
+            Según su ficha de Google, consultada el 15-09-2026.
+          </p>
+        </div>
+
+        <div class="vblock">
+          <h3>Contacto</h3>
+          <a class="vtel" href="https://wa.me/56967955903" target="_blank" rel="noopener">
+            <span class="vtel-ico" style="background:#25D366" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884a9.82 9.82 0 016.988 2.896 9.82 9.82 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.88 11.88 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 00-3.48-8.413Z"/></svg></span>
+            <span class="vtel-txt">
+              <b>+56 9 6795 5903</b>
+              <em>WhatsApp · también sale en su carta</em>
+            </span>
+            <span class="vtel-flecha" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="vblock">
+          <h3>Cómo se puede pedir</h3>
+          <ul class="vpedir">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3V5zm2 4h14l-1 5h-4v6h-2v-6H6L5 9zm-1 12h16v2H4v-2z"/></svg> Consumo en el lugar</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7V6a6 6 0 1112 0v1h3v14a2 2 0 01-2 2H5a2 2 0 01-2-2V7h3zm2 0h8V6a4 4 0 10-8 0v1z"/></svg> Para llevar</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v9H3V6zm12 3h3.5L21 12.5V15h-6V9zM6.5 20a2 2 0 110-4 2 2 0 010 4zm11 0a2 2 0 110-4 2 2 0 010 4z"/></svg> Entrega a domicilio</li>
+          </ul>
+          <p class="sub">
+            Servicios declarados en su ficha de Google. El delivery se pide
+            <b>por WhatsApp</b>: su tienda de Uber Eats está cerrada desde
+            diciembre de 2022.
+          </p>
+        </div>
+
+        <div class="vblock vblock-cta">
+          <a class="btn btn-solid" href="https://www.google.com/maps/dir/?api=1&destination=Churrasqueria%20Pilon%20Quilicura&destination_place_id=ChIJO75yzCrHYpYRWYLkZsrr3mc" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="btn btn-ghost" href="https://waze.com/ul?ll=-33.3681294,-70.71611&navigate=yes" target="_blank" rel="noopener">Ir con Waze</a>
+        </div>
+      </div>
+
+      <div class="visit-map">
+        <!-- ⚠️ SIN loading="lazy": vive en pestaña display:none y no cargaría. -->
+        <iframe
+          title="Mapa de Churrasquería Pilón en Las Parcelas 1242, Quilicura"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330!2d-70.71611!3d-33.3681294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c72acc72be3b%3A0x67deebca66e48259!2sChurrasqueria%20Pilon!5e0!3m2!1ses!2scl!4v1757900000000!5m2!1ses!2scl"
+          width="100%" height="100%" style="border:0" allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Flotantes. Derecha = contacto: WhatsApp (su número real, impreso en su
+     propia carta) + Facebook (su página real, activa). Izquierda vacía a
+     propósito: su Uber Eats está cerrado desde dic 2022 y no tienen Rappi
+     ni PedidosYa, así que no hay link de delivery al que mandar a nadie. -->
+<div class="float float-right">
+  <a class="fab fab-wsp" href="https://wa.me/56967955903" target="_blank" rel="noopener"
+     data-label="WhatsApp" aria-label="Escribir a Churrasquería Pilón por WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884a9.82 9.82 0 016.988 2.896 9.82 9.82 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.88 11.88 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 00-3.48-8.413Z"/></svg></a>
+  <a class="fab fab-fb" href="https://www.facebook.com/p/Pilon-delivery-quilicura-100046873121831/" target="_blank" rel="noopener"
+     data-label="Facebook" aria-label="Facebook de Churrasquería Pilón"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+  <button class="fab fab-top" id="toTop" data-label="Volver arriba" aria-label="Volver arriba"
+    style="background:var(--mostaza);color:#121212"><span aria-hidden="true">↑</span></button>
+</div>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <p class="foot-brand">Pilón</p>
+      <p>Las Parcelas 1242 · Quilicura</p>
+      <p data-horario-resumen>De 18:00 a 01:00 · martes cerrado</p>
+      <p><a href="https://wa.me/56967955903" target="_blank" rel="noopener">+56 9 6795 5903</a></p>
+    </div>
+    <div class="foot-demo">
+      <p><strong>Esta es una demo.</strong> No es el sitio oficial de Churrasquería Pilón.</p>
+      <p>Hecha con datos públicos reales de su ficha de Google Maps, su
+         página de Facebook y las fotos de su propia carta (verificados el
+         15-09-2026) para mostrarle al local cómo se vería su página web.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.HORARIO = {
+  dias: ["18:00 - 01:00","Cerrado","18:00 - 01:00","18:00 - 01:00",
+         "18:00 - 01:00","18:00 - 01:00","18:00 - 01:00"],
+  fuente: "Ficha de Google Maps, 15-09-2026"
+};
+/* Sin window.REDES a propósito: NO tienen Instagram del negocio. El que
+   imprimen en su carta es la cuenta personal del dueño, y no se publica.
+   redes.js no hace nada si la variable no existe — que es lo correcto. */
+</script>
+
+<script src="script.js"></script>
+<script src="vida.js"></script>
+<script src="carta-fotos.js"></script>
+<script src="carrito.js"></script>
+<script src="horario.js"></script>
+<script src="redes.js"></script>
+</body>
+</html>
